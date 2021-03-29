@@ -1,0 +1,73 @@
+.container{
+    width: 970px;
+    background-color:rgb(27,52,93);
+    padding: 10px;
+}
+.header{
+    height: 50px;
+    background-color: rgb(207,48,54);
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.header h1{
+    margin: 0px;
+    padding: 0px;
+    color:rgb(194,214,235);
+    padding-top: 5px;
+}
+.navbar{
+    width: 170px;
+    height: 220px;
+    color:rgb(102,218,219);
+    background-color: rgb(41,125,140);
+    border-radius: 10px;
+    padding: 15px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px 0px;
+}
+.navbar a{
+    color: rgb(102,218,219); 
+}
+ul{
+    padding: 0px;
+    margin:5px 0px 5px 20px;
+}
+a{
+    color: rgb(102,218,219);
+}
+.Mainbox{
+    width: 725px;
+    color:rgb(102,218,219);
+    background-color:rgb(14,24,34);
+    border-radius: 10px;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px 0px 10px 15px;
+}
+.Mainbox h2{
+    color:rgb(194,214,235);
+    margin: 5px 0px 0px 0px;
+}
+.Mainbox p{
+    color:rgb(194,214,235);
+    margin: 0px 0px 10px 0px;
+    display: inline-block;
+    vertical-align: top;
+    
+}
+.footer{
+    width: 960px;
+    height: 50px;
+    background-color:rgb(93,102,115);
+    border-radius: 15px;
+}
+.footer p{
+    display: inline-block;
+    color: rgb(180,191,191);
+    margin: 16px 0px 16px 20px;
+}
+.Mainbox span{
+    color:blue;
+}
