@@ -1,0 +1,227 @@
+#container{
+    width: 970px;
+    min-height: 700px;
+    background-image: linear-gradient( rgb(36,80,118) 95%, rgb(118, 118, 202) );
+}
+#header img{
+    width: 380px;
+    height: 100px;
+    margin: 25px 25px 5px 25px;
+}
+.topRbox{
+    display: inline-block;
+    position:absolute;
+    top: 8px;
+    right: 50px;
+    left: 740px;
+}
+.topRbox p{
+    font-size: small;
+    color: white;
+    height: 20px;
+    width: 155px;
+    margin: 10px 0px 5px 50px;
+}
+.topRbox span{
+    color: black;
+}
+.topRbox a{
+    color:rgb(153,145,34) ;
+}
+.GoBox{
+    display: inline-block;
+    width: 200px;
+    height: 30px;
+    padding: 13px 0px 13px 25px;
+    background-color: rgb(68,68,68);
+    border-radius: 10px;
+    box-shadow: 2px 2px 1px 0px;
+}
+.GoBox input{ 
+    width: 122px;
+    height: 30px;
+    border: 2px solid gray;
+    padding: 0px;
+    margin-left: 5px;
+}
+.GoBox button{
+    color:whitesmoke;
+    background-color: rgb(36,80,118);
+    border-radius: 4px;
+    border: 1px solid whitesmoke;
+    height: 30px;
+    width: 30px;
+}
+#Menu-Bar{
+    display: flex;
+    justify-content: space-around;
+    margin: 5px 60px 20px 90px;
+    width: 830px;
+    height: 60px;
+    background-color: rgb(67,124,173);
+    border-radius: 5px;
+    box-shadow: 2px 2px 1px 0px;
+}
+#Menu-Bar a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    color: rgb(213,225,236);
+    font-size:large;
+    text-decoration: none;
+    margin: 15px 0px 5px 0px;
+    padding: 2px 0px;
+    
+}
+[class^="Mid"]{
+    display: inline-block;
+    vertical-align: top;
+}
+.Mid-Left{
+    margin: 0px 40px 0px 100px;
+}
+.Mid-Left ul{
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    text-align: center;
+    line-height:25px;
+}
+.Mid-Left li{
+    margin: 5px 0px 5px 0px;
+    list-style-type: '>>  ';
+    color:yellow;
+    list-style-position: inside;
+}
+.Mid-Left a{
+    margin: 0px;
+    color: whitesmoke;
+}
+.Mid-Right{
+    vertical-align: top;
+    display: inline-block;
+    min-height: 200px;
+    max-width: 510px;
+}
+#Wrapper-Mid{
+    border-bottom: 1px solid black;
+    box-shadow: 5px 5px 25px 30px rgba(0, 0, 0, 0,5) ;
+    
+}
+.Mid-Right p:first-child{
+    display: inline-block;
+    vertical-align: top;
+    color:whitesmoke;
+    width: 620px;
+    margin: 0px;
+    padding: 0px;
+    text-align:center;
+    text-indent: 10px;
+}
+.Mid-Right p:nth-child(2){
+    width: 295px;
+    margin-left: 160px;
+    text-align: center;
+    line-height: 35px;
+    font-size: 20px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    color: yellow;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif sans-serif;
+}
+.Mid-Right p:last-child{
+    margin-left: 245px;
+    margin-top: 10px;
+    color: whitesmoke;
+}
+#Bot-Wrapper{
+    width: 100%;
+    min-height: 200px;
+    display: block;
+    background-color: white;
+}
+.Left-box{
+    display: inline-block ;
+    vertical-align: top;
+    width: 350px;
+    margin-top: 10px;
+    margin-left: 70px;
+    padding-right: 40px;
+    text-align: center;
+    border-top: 4px solid rgb(5, 102, 97);
+}
+.Right-box{
+    display: inline-block ;
+    vertical-align: top;
+    width: 420px;
+    margin-top: 10px;
+    margin-left: 30px;
+    text-align: center;
+    border-top: 4px solid rgb(5, 102, 97);
+}
+#Footer{
+    width: 100%;
+    height: 150px;
+}
+#Bot-Wrapper h3{
+    margin-top: 5px;
+}
+.Left-box ul{
+    width: 240px;
+    height: 75px;
+    line-height: 25px;
+    margin: 0px 0px 0px 50px;
+    padding: 0px;
+}
+.Left-box p{
+    margin-bottom: 5px;
+    text-align-last: center;
+}
+.Right-box li::marker, .Left-box li::marker{
+    list-style-type: square;
+    color: black;
+}
+.Right-box li, .Left-box li{
+    list-style-type: square;
+    color: rgb(21, 139, 134);
+}
+.Right-box p{
+    margin: 5px;
+}
+.Right-box a{
+    color: rgb(21, 139, 134);
+}
+.Right-box ul{
+    padding: 0px;
+    margin: 16px 0px 16px 90px;
+    width: 240px;
+    line-height: 25px;
+}
+#Footer {
+    width: 100%;
+    height: 90px;
+}
+.FF {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    margin: 0 auto;
+    align-items: center;
+    height: 50px;
+
+}
+#Footer a{
+    width: auto;
+    height: auto;
+    /* margin: 60px 0px 10px 120px; */
+    /* display: inline-block; */
+    /* align-items: middle; */
+    color:lightblue;
+    font-weight: lighter;
+    text-decoration: none;
+}
+#Footer h6{
+    display: flex;
+    color:grey;
+    justify-content: center;
+    width: 500px;
+    margin: 0 auto;
+    /* margin: 10px 0px 10px 420px; */
+}
