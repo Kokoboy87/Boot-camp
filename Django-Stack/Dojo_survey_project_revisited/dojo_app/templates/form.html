@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojo Servey</title> 
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <div id="container">
+        <h1>Submission Form</h1>
+        <form action="submit_form" method='POST'>
+            {% csrf_token %}
+            <div>
+                <label for="name">name</label>
+                <input name="name" type="text" id="name">
+            </div>
+            <div>
+                <label for="location">location</label>
+                <select name="location" id="location">
+                    <Option value="Virginia">Virginia</Option>
+                    <option value="Seattle">Seattle</option>
+                    <option value="Chicago">Chicago</option>
+                    <option value="New York">New York</option>
+                </select>
+            </div>
+            <div>
+                <label for="language">language</label>
+                <select name="language" id="language">
+                    <Option value="JavaScript">JavaScript</Option>
+                    <option value="Html">Html</option>
+                    <option value="SCC">SCC</option>
+                    <option value="Python">Python</option>
+                </select>
+            </div>
+            <div>
+                <input type="radio" name="gender" id="male" value="Male" autocomplete="off" required>
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="female" value="Female" autocomplete="off" required>
+                <label for="female">Female</label>
+                <input type="radio" name="gender" id="other" value="Other" autocomplete="off" required>
+                <label for="other">Other</label>
+            </div>
+            <div>
+                <label for="desc">Comments</label>
+            </div>
+            <div>
+                <textarea id="comment" name="comment"></textarea>
+            </div>
+            <button>Submit</button>
+        </form>
+    </div>
+</body>
+</html>
